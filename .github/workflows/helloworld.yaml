@@ -11,3 +11,6 @@ jobs:
     steps:
     - name: Say Hello
       run: echo "Hello World!"
+
+    - name: Say Goodbye
+      run: echo "Goodbye World!"
