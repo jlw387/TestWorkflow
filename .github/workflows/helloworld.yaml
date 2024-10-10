@@ -1,0 +1,13 @@
+name: HelloWorldWorkflow
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  HelloWorldJob:
+    runs-on: linux-x64-small
+
+    steps:
+    - name: Say Hello
+      run: echo "Hello World!"
