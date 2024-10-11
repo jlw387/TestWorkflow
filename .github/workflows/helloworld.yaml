@@ -17,4 +17,6 @@ jobs:
 
     steps:
     - name: Say Goodbye
-      run: say goodbye
+      env:
+        MY_SECRET: ${{secrets.MY_SECRET}}
+      run: echo $MY_SECRET
